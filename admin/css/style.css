@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  margin:auto;
+  padding:0;
+}
+.container{
+  width:1200px;
+  font-family:Tahoma;
+  }
+/*-HEADER-*/
+.header{
+  width:100%;
+  height: 250px;
+}
+.header .hotline{
+  width: 100%;
+  height: 29px;
+  border-bottom: 1px solid #ccc;
+  line-height: 29px;
+}
+.header .hotline p{
+  float: left;
+  margin-left: 10px;
+} 
+.header .hotline .user{
+  float: right;
+  font-weight: bold;
+}
+.header .hotline .user a{
+  text-decoration: none;
+  color:black;
+}
+.header .logo{
+  height: 200px;
+  width: 100%;
+}
+.header .logo img{
+  width: 153px;
+  height: 185px;
+  float: left;
+  margin-top: 25px;
+}
+.header .logo .search{
+  line-height: 200px;
+  margin:auto;
+  width: 40%;
+  height: 60px;
+}
+.header .logo .search input{
+  border-top:none;
+  border-left: none;
+  width: 300px;
+  height: 50px;
+}
+.header .logo .search button{
+  height: 50px;
+  width: 80px;
+  background-color: gray;
+  color: white;
+  box-shadow: 3px 3px 2px black;
+}
+.header .logo .search button:active{
+  background-color: lightgray;
+}
+/*!-HEADER-*/
+/*-BANNER-*/
+.banner{
+  width: 100%;
+  height: 500px;
+  float: left;
+  background: url("../img/banner2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*!-BANNER-*/
+/*-NAV-*/
+.nav{
+  background-color: black;
+}
+.nav ul{
+  list-style-type:none;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 10px;
+  }
+.nav ul li{
+  display: inline-table;
+  width: 120px;
+  line-height: 50px;
+}
+.nav a{
+  color:lightgray;
+  text-decoration:none;
+  display: block;
+}
+.nav a:hover{
+  color: black;
+  background-color: white;
+}
+/*!-NAV-*/
+/*-MAIN-*/
+.content{
+  width: 100%;
+  height: 800px;
+ }
+.content .left{
+  width: 20%;
+  height: 100%;
+  background-color: lightgray;
+  float: left;
+}
+.content .left p{
+  background-color: gray;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 30px;
+}
+.content .left ul{
+  list-style-type:none;
+  text-align: left;
+  font-weight: bold;
+  }
+.content .left ul li{
+  display: inline-table;
+  width: 100%;
+  line-height: 50px;
+  border-bottom: 1px solid black;
+}
+.content .left a{
+  color:black;
+  text-decoration:none;
+  display: block;
+  padding-left: 10px;
+}
+.content .left a:hover{
+  color: white;
+  font-weight: bold;
+}
+.content .right{
+  background:#666666;
+  float:left;
+  height:100%;
+  width:80%;
+  overflow: auto;
+}
+.content .right .right_title{
+  width: 100%;
+  height: 50px;
+  color: white;
+  line-height: 50px;
+  text-align: center;
+}
+.content .right .sp{
+  float: left;
+  width:200px;
+  height:230px;
+  background:#333333;
+  margin:20px 0 0 34px;
+}
+.content .right .sp .nut{
+  width: 150px;
+  height: 20px;
+  margin: auto;
+}
+.content .right .sp a button:first-child{
+  margin-right: 5px;
+}
+/*--CHITIET--*/
+.content .right .chitiet table{
+  height: max-content;
+  padding-top: 100px;
+  color: white;
+}
+.content .right .chitiet table tr td input{
+  width: 85px;
+  height: 20px;
+}
+.content .right .chitiet table tr td button{
+  width: 100px;
+  height: 50px;
+}
+/*!--CHITIET--*/
+/*-!MAIN-*/
+/*-FOOTER-*/
+.footer{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: white;
+}
+.footer p{
+  width: 400px;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+/*!-FOOTER-*/
